@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 import tacoImg from "../../public/images/taco1.png";
+import { Footer } from "./components/footer";
 
 export default function Home() {
   return (
