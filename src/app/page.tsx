@@ -6,7 +6,18 @@ import { Footer } from "./components/footer";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>hello</h1>
+      <div className="first-section">
+
+      </div>
+      <div className="second-section">
+
+      </div>
+      <div className="third-section">
+
+      </div>
+      <div className="fourth-section">
+        
+      </div>
       <Image src={tacoImg} alt="Taco image" />
     </main>
   );

@@ -6,7 +6,9 @@ import logoImg from "../../../public/images/logo2.png";
 export const Navbar = () => {
   return (
     <div className="navBar">
-      <Image src={logoImg} alt="logo" width={100} height={100} />
+      <Link href="../../">
+        <Image src={logoImg} alt="logo" width={100} height={100} />
+      </Link>
       <ul>
         <li>
           <Link href="../about/">About</Link>

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { Fragment, useState, useEffect } from "react";
+import Link from "next/link";
 import Image from "next/image";
 import logoImg from "../../../public/images/logo2.png";
 
@@ -14,7 +15,9 @@ export const Footer = () => {
   return (
     <div>
       <p>{`© ${year} All Rights Reserved.`}</p>
-      <Image src={logoImg} alt="logo" width={125} height={125} />
+      <Link href="../../">
+        <Image src={logoImg} alt="logo" width={125} height={125} />
+      </Link>
     </div>
   );
 };
