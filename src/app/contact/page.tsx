@@ -6,11 +6,14 @@ const page = () => {
       <h1>Contact Us!</h1>
       <div className="container">
         <label htmlFor="">Name</label>
-        <input type="text" />
-        <label htmlFor="">Last Name</label>
-        <input type="text" name="" id="" />
+        <input type="text" required />
         <label htmlFor="">Email</label>
+        <input type="text" required />
+        <label htmlFor="">Phone number</label>
         <input type="text" />
+        <label htmlFor="">Message</label>
+        <input type="text" required />
+        <button>Submit</button>
       </div>
     </div>
   );
