@@ -1,0 +1,26 @@
+div.section:nth-of-type(odd) {
+    background-color: white;
+    color: black;
+  }
+  
+  div.section:nth-of-type(even) {
+    background-color: black;
+    color: white;
+  }
+
+  .comment {
+    background-color: black;
+    color: white;
+  }
+
+  .commentw {
+    background-color: bisque;
+  }
+
+  .guisados {
+    color: white;
+  }
+
+  .text2{
+    color: white;
+  }
