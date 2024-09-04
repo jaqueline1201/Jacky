@@ -1,39 +1,10 @@
-div.section:nth-of-type(odd) {
-    background-color: white;
-    color: black;
-    height: 100vh;
-  }
-  
-  div.section:nth-of-type(even) {
-    background-color: black;
-    color: white;
-    height: 100vh;
-  }
+h1,h3,h4,p,li {
+    font-family: var(--font-alegreya);
+}
 
-  .comment {
-    background-color: black;
-    color: white;
-  }
+:root {
+    --dark:#000000;
+    --light:#fff8e6;
+}
 
-  .commentw {
-    background-color:#fff8e6;
-    color: black;
-  }
 
-  .guisados {
-    color: white;
-  }
-
-  .text2{
-    color: white;
-  }
-
-  .navBar {
-    overflow: hidden;
-    width: 100%;
-  }
-
-  .navBarR{
-    float: right;
-    display: inline;
-  }
