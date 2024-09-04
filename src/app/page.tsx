@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+
 import Image from "next/image";
 import tacoImg from "../../public/images/taco1.png";
 import chileImg from "../../public/images/chiles.png";

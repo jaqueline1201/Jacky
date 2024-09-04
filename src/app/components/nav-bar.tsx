@@ -1,3 +1,4 @@
+import styles from "./page.module.css";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,17 +10,21 @@ export const Navbar = () => {
       <Link href="../../">
         <Image src={logoImg} alt="logo" width={100} height={100} />
       </Link>
-      <ul>
-        <li>
-          <Link href="../about/">Sobre nosotros</Link>
-        </li>
-        <li>
-          <Link href="../menu/">Menú</Link>
-        </li>
-        <li>
-          <Link href="../contact/">Contactanos</Link>
-        </li>
-      </ul>
+      <div className="navBarR">
+        <div className="elements">
+          <ul>
+            <li>
+              <Link href="../about/">Conocenos</Link>
+            </li>
+            <li>
+              <Link href="../menu/">Menú</Link>
+            </li>
+            <li>
+              <Link href="../contact/">Contactanos</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
