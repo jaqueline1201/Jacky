@@ -1,0 +1,9 @@
+.navBar {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .navBarR{
+    float: right;
+    display: inline;
+  }

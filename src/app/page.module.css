@@ -1,0 +1,32 @@
+div.section:nth-of-type(odd) {
+    background-color: white;
+    color: black;
+    height: 100vh;
+  }
+  
+  div.section:nth-of-type(even) {
+    background-color: black;
+    color: white;
+    height: 100vh;
+  }
+
+  .comment {
+    background-color: black;
+    color: white;
+    font-family: var(--font-pacifico);
+    width: 100px;
+  }
+
+  .commentw {
+    background-color:#fff8e6;
+    color: black;
+    font-family: var(--font-pacifico)
+  }
+
+  .guisados {
+    color: white;
+  }
+
+  .text2{
+    color: white;
+  }

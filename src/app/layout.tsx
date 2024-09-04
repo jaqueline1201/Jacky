@@ -5,13 +5,22 @@ import "./globals.css";
 import { Navbar } from "./components/nav-bar";
 import { Footer } from "./components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 const pacifico = Pacifico({
   subsets: ["latin"],
+  variable: "--font-pacifico",
   display: "swap",
   weight: "400",
 });
-const alegreya = Alegreya({ subsets: ["latin"] });
+const alegreya = Alegreya({
+  subsets: ["latin"],
+  variable: "--font-alegreya",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "La Cochera",
@@ -25,7 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={`${inter.variable} ${pacifico.variable} ${alegreya.variable}`}
+      >
         <Navbar />
         {children}
         <Footer />
