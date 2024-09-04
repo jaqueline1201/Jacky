@@ -30,6 +30,24 @@
     color: var(--light);
   }
 
+  .guisadosphotos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .descriptionandImg {
+    display: flex;
+  }
+
+  /* .meatImage {
+    
+  }
+
+  .meatText{
+   
+    
+  } */
+
   .text2{
     color: var(--light);
   }

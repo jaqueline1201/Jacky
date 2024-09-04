@@ -1,9 +1,9 @@
 import styles from "./page.module.css";
-
 import Image from "next/image";
 import tacoImg from "../../public/images/taco1.png";
 import chileImg from "../../public/images/chiles.png";
 import drinkImg from "../../public/images/bebida.png";
+import beansImg from "../../public/images/beans.jpg";
 
 export default function Home() {
   return (
@@ -33,15 +33,30 @@ export default function Home() {
               <h2>Guisados cocinados al día con la mejor calidad.</h2>
             </div>
           </div>
-          <div className="guisados-photos">
-            <div className="meat-image">
-              <h3>here put a picture</h3>
+          <div className={styles.guisadosphotos}>
+            <div className={styles.descriptionandImg}>
+              <div className={styles.meatImage}>
+                <Image src={beansImg} alt="guisado" />
+              </div>
+              <div className={styles.meatText}>
+                <h3>Photo description</h3>
+              </div>
             </div>
-            <div className="meat-image">
-              <h3>here put a picture</h3>
+            <div className={styles.descriptionandImg}>
+              <div className={styles.meatImage}>
+                <Image src={beansImg} alt="guisado" />
+              </div>
+              <div className={styles.meatText}>
+                <h3>Photo description</h3>
+              </div>
             </div>
-            <div className="meat-image">
-              <h3>here put a picture</h3>
+            <div className={styles.descriptionandImg}>
+              <div className={styles.meatImage}>
+                <Image src={beansImg} alt="guisado" />
+              </div>
+              <div className={styles.meatText}>
+                <h3>Photo description</h3>
+              </div>
             </div>
           </div>
           <Image src={chileImg} alt="Chile" width={100} height={100} />
