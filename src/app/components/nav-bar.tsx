@@ -2,7 +2,7 @@ import styles from "./navbar.module.css";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logoImg from "../../../public/images/logo2.png";
+import logoImg from "../../../public/images/logo.png";
 
 export const Navbar = () => {
   return (
@@ -13,13 +13,13 @@ export const Navbar = () => {
       <div className={styles.navBarR}>
         <div className={styles.elements}>
           <ul>
-            <li>
+            <li className={styles.optionsN}>
               <Link href="../about/">Conocenos</Link>
             </li>
-            <li>
+            <li className={styles.optionsN}>
               <Link href="../menu/">Menú</Link>
             </li>
-            <li>
+            <li className={styles.optionsN}>
               <Link href="../contact/">Contactanos</Link>
             </li>
           </ul>
