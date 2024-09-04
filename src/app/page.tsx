@@ -4,6 +4,10 @@ import tacoImg from "../../public/images/taco1.png";
 import chileImg from "../../public/images/chiles.png";
 import drinkImg from "../../public/images/bebida.png";
 import beansImg from "../../public/images/beans.jpg";
+import salsaImg from "../../public/images/salsa.jpg";
+import cocaImg from "../../public/images/coca.png";
+import jamaicaImg from "../../public/images/jamaica.jpg";
+import lechuguilla from "../../public/images/el grullense.jpg";
 
 export default function Home() {
   return (
@@ -33,28 +37,28 @@ export default function Home() {
               <h2>Guisados cocinados al día con la mejor calidad.</h2>
             </div>
           </div>
-          <div className={styles.guisadosphotos}>
+          <div className={styles.productContainer}>
             <div className={styles.descriptionandImg}>
-              <div className={styles.meatImage}>
-                <Image src={beansImg} alt="guisado" />
+              <div className={styles.productImage}>
+                <Image src={beansImg} alt="guisado" width={200} height={200} />
               </div>
-              <div className={styles.meatText}>
+              <div className={styles.productText}>
                 <h3>Photo description</h3>
               </div>
             </div>
             <div className={styles.descriptionandImg}>
-              <div className={styles.meatImage}>
-                <Image src={beansImg} alt="guisado" />
+              <div className={styles.productImage}>
+                <Image src={beansImg} alt="guisado" width={200} height={200} />
               </div>
-              <div className={styles.meatText}>
+              <div className={styles.productText}>
                 <h3>Photo description</h3>
               </div>
             </div>
             <div className={styles.descriptionandImg}>
-              <div className={styles.meatImage}>
-                <Image src={beansImg} alt="guisado" />
+              <div className={styles.productImage}>
+                <Image src={beansImg} alt="guisado" width={200} height={200}/>
               </div>
-              <div className={styles.meatText}>
+              <div className={styles.productText}>
                 <h3>Photo description</h3>
               </div>
             </div>
@@ -64,22 +68,63 @@ export default function Home() {
         <div className={styles.section}>
           <h1>5 Salsas</h1>
           <h3>Lo que se hace bien, se siente y se disfruta</h3>
-          <div className="salsa-images">
-            <div className="salsa">
-              <h4>name and picture</h4>
+          <div className={styles.productContainer}>
+            <div className={styles.descriptionandImg}>
+              <div className={styles.productImage}>
+                <Image src={salsaImg} alt="salsa" width={200} height={200} />
+              </div>
+              <div className={styles.productText}>
+                <h3>Photo description</h3>
+              </div>
             </div>
-            <div className="salsa">
-              <h4>name and picture</h4>
+            <div className={styles.descriptionandImg}>
+              <div className={styles.productImage}>
+                <Image src={salsaImg} alt="salsa" width={200} height={200} />
+              </div>
+              <div className={styles.productText}>
+                <h3>Photo description</h3>
+              </div>
             </div>
-            <div className="salsa">
-              <h4>name and picture</h4>
+            <div className={styles.descriptionandImg}>
+              <div className={styles.productImage}>
+                <Image src={salsaImg} alt="salsa" width={200} height={200} />
+              </div>
+              <div className={styles.productText}>
+                <h3>Photo description</h3>
+              </div>
             </div>
           </div>
         </div>
-        <Image src={drinkImg} alt="bebida" width={100} height={100} />
+        <Image src={drinkImg} alt="bebida" width={200} height={200} />
         <div className={styles.section}>
           <h1>Bebidas</h1>
           <h3>Agua fresca bien helada y refresco para acompañar</h3>
+          <div className={styles.productContainer}>
+            <div className={styles.descriptionandImg}>
+              <div className={styles.productImage}>
+                <Image src={jamaicaImg} alt="jamaica" width={200} height={200}/>
+              </div>
+              <div className={styles.productText}>
+                <h3>Photo description</h3>
+              </div>
+            </div>
+            <div className={styles.descriptionandImg}>
+              <div className={styles.productImage}>
+                <Image src={cocaImg} alt="cocacola" width={200} height={200} />
+              </div>
+              <div className={styles.productText}>
+                <h3>Photo description</h3>
+              </div>
+            </div>
+            <div className={styles.descriptionandImg}>
+              <div className={styles.productImage}>
+                <Image src={lechuguilla} alt="lechuguilla"width={200} height={200} />
+              </div>
+              <div className={styles.productText}>
+                <h3>Photo description</h3>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
