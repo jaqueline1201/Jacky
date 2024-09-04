@@ -1,0 +1,11 @@
+.footsection {
+    background-color: var(--light);
+}
+
+.imgfooter {
+    float: right;
+}
+
+.copyright {
+    text-align: center;
+}

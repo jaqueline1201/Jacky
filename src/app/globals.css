@@ -7,4 +7,8 @@ h1,h3,h4,p,li {
     --light:#fff8e6;
 }
 
+body {
+    background-color: var(--light);
+}
+
 

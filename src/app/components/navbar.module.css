@@ -1,9 +1,15 @@
 .navBar {
     overflow: hidden;
     width: 100%;
+    background-color: var(--light);
   }
 
   .navBarR{
     float: right;
+  }
+  
+  .optionsN {
     display: inline;
+    text-decoration: none;
+    
   }

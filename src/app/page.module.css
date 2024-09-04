@@ -15,12 +15,15 @@
     color: var(--light);
     font-family: var(--font-pacifico);
     width: 100px;
+    margin: 20px;
   }
 
   .commentw {
     background-color:var(--light);
     color: var(--dark);
-    font-family: var(--font-pacifico)
+    font-family: var(--font-pacifico);
+    width: 100px;
+    margin: 20px;
   }
 
   .guisados {
