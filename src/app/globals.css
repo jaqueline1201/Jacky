@@ -2,5 +2,9 @@ h1,h3,h4,p,li {
     font-family: var(--font-alegreya);
 }
 
+:root {
+    --dark:#000000;
+    --light:#fff8e6;
+}
 
 
