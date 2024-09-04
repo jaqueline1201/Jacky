@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Pacifico, Alegreya } from "next/font/google";
+
 import "./globals.css";
 import { Navbar } from "./components/nav-bar";
 import { Footer } from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
+const pacifico = Pacifico({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
+});
+const alegreya = Alegreya({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "La Cochera",
