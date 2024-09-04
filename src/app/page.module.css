@@ -30,7 +30,7 @@
     color: var(--light);
   }
 
-  .guisadosphotos {
+  .productContainer {
     display: flex;
     justify-content: center;
   }
@@ -39,11 +39,11 @@
     display: flex;
   }
 
-  /* .meatImage {
+  /* .productImage {
     
   }
 
-  .meatText{
+  .productText{
    
     
   } */
