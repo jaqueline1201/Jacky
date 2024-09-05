@@ -6,6 +6,7 @@ import logoImg from "../../../public/images/logo.png";
 
 export const Navbar = () => {
   return (
+    <div className={styles.content}>
     <div className={styles.navBar}>
       <Link href="../../">
         <Image src={logoImg} alt="logo" width={100} height={100} />
@@ -25,6 +26,7 @@ export const Navbar = () => {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 };
