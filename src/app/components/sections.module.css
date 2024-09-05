@@ -1,0 +1,22 @@
+.section {
+  height: 100vh;
+  
+  &:nth-of-type(odd) {
+    background-color: var(--light);
+    color: var(--dark);
+  }
+
+  &:nth-of-type(even) {
+    background-color: var(--dark);
+    color: var(--light);
+  }
+}
+
+.content {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+
+  
+  

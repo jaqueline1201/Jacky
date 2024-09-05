@@ -1,22 +1,6 @@
-.section:nth-of-type(odd) {
-    background-color: var(--light);
-    color: var(--dark);
-    height: 100vh;
-  }
-  
-  .section:nth-of-type(even) {
-    background-color: var(--dark);
-    color: var(--light);
-    height: 100vh;
-  }
 
-  .comment {
-    background-color: var(--dark);
-    color: var(--light);
-    font-family: var(--font-pacifico);
-    width: 120px;
-    margin: 20px;
-  }
+
+
 
   .commentw {
     background-color:var(--light);
@@ -37,6 +21,18 @@
 
   .descriptionandImg {
     display: flex;
+   background-color: var(--light);
+   color: var(--dark);
+   margin: 10px;
+   border-radius: 5px;
+  }
+
+  .descriptionandImgB {
+    display: flex;
+    background-color: var(--dark);
+    color:var(--light);
+    margin: 10px;
+   border-radius: 5px;
   }
 
   /* .productImage {

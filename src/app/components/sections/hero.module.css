@@ -1,0 +1,7 @@
+.comment {
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: var(--font-pacifico);
+    width: 120px;
+    margin: 20px;
+  }
