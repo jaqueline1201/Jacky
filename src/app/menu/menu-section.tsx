@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./menu.module.css";
 
 type MenuProps = {
-  children: React.Node;
+  children: React.ReactNode;
 };
 
 export const Menu = (props: MenuProps) => {
