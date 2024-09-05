@@ -14,6 +14,9 @@ export const Hero = () => {
       </div>
       <div className={styles.comment}> Y lo mejor... las salsas uff!</div>
       <Image src={tacoImg} alt="Taco image" width={100} height={100} />
+      <div className={styles.commentw}>Verduras frescas del día</div>
+      <div className={styles.commentw}>Las tortillas del día</div>
+      <div className={styles.commentw}>Con unas bebidas bien frias</div>
     </div>
   );
 };

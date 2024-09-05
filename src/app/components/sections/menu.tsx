@@ -3,15 +3,11 @@ import Image from "next/image";
 import beansImg from "../../../../public/images/beans.jpg";
 import styles from "./menu.module.css";
 
-export const menu = () => {
+export const Menu = () => {
   return (
     <div>
-      <div className={styles.section}>
-        <div className={styles.commentw}>Verduras frescas del día</div>
-        <div className={styles.commentw}>
-          Las tortillas del día. Riquísimas!
-        </div>
-        <div className={styles.commentw}>Con unas bebidas bien frías</div>
+      
+        
         <div className="guisados-text">
           <div className="guisados">
             <h1>13 Guisados</h1>
@@ -45,7 +41,6 @@ export const menu = () => {
               <h3>Photo description</h3>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );
