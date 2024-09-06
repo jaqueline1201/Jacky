@@ -47,17 +47,17 @@ export const Hero = () => {
         />
 
         <div
-          className={`${styles.comment} ${styles.lightcmnt} ${styles.circle}`}
+          className={`${styles.comment} ${styles.lightcmnt} ${styles.circle2}`}
         >
           Verduras frescas del día
         </div>
         <div
-          className={`${styles.comment} ${styles.lightcmnt} ${styles.circle}`}
+          className={`${styles.comment} ${styles.lightcmnt} ${styles.circle2}`}
         >
           Las tortillas del día
         </div>
         <div
-          className={`${styles.comment} ${styles.lightcmnt} ${styles.circle}`}
+          className={`${styles.comment} ${styles.lightcmnt} ${styles.circle2}`}
         >
           Con unas bebidas bien frias
         </div>
