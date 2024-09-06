@@ -6,24 +6,35 @@ import tacoImg from "../../../../public/images/taco1.png";
 export const Hero = () => {
   return (
     <div className={styles.container}>
-      <div className={`${styles.comment} ${styles.darkcmnt}`}>
-        13 guisador a escoger
-      </div>
-      <div className={`${styles.comment} ${styles.darkcmnt}`}>
-        Los mejores tacos de colima
-      </div>
-      <div className={`${styles.comment} ${styles.darkcmnt}`}>
-        Taco que no cierra no es taco
-      </div>
-      <div className={`${styles.comment} ${styles.darkcmnt}`}>
-        Amo esos tacos no puedo comer solo uno
-      </div>
-      <div className={`${styles.comment} ${styles.darkcmnt}`}>
-        {" "}
-        Y lo mejor... las salsas uff!
-      </div>
-      <div className={styles.images}>
+      <div className={styles.mainset}>
+        <div
+          className={`${styles.comment} ${styles.darkcmnt} ${styles.circle}`}
+        >
+          13 guisador a escoger
+        </div>
+        <div
+          className={`${styles.comment} ${styles.darkcmnt} ${styles.circle}`}
+        >
+          Los mejores tacos de colima
+        </div>
+        <div
+          className={`${styles.comment} ${styles.darkcmnt} ${styles.circle}`}
+        >
+          Taco que no cierra no es taco
+        </div>
+        <div
+          className={`${styles.comment} ${styles.darkcmnt} ${styles.circle}`}
+        >
+          Amo esos tacos no puedo comer solo uno
+        </div>
+        <div
+          className={`${styles.comment} ${styles.darkcmnt} ${styles.circle}`}
+        >
+          Y lo mejor... las salsas uff!
+        </div>
+
         <Image
+          className={styles.images}
           src={tacoImg}
           alt="Taco image"
           width={1400}
@@ -34,15 +45,22 @@ export const Hero = () => {
             height: "auto",
           }}
         />
-      </div>
-      <div className={`${styles.comment} ${styles.lightcmnt}`}>
-        Verduras frescas del día
-      </div>
-      <div className={`${styles.comment} ${styles.lightcmnt}`}>
-        Las tortillas del día
-      </div>
-      <div className={`${styles.comment} ${styles.lightcmnt}`}>
-        Con unas bebidas bien frias
+
+        <div
+          className={`${styles.comment} ${styles.lightcmnt} ${styles.circle}`}
+        >
+          Verduras frescas del día
+        </div>
+        <div
+          className={`${styles.comment} ${styles.lightcmnt} ${styles.circle}`}
+        >
+          Las tortillas del día
+        </div>
+        <div
+          className={`${styles.comment} ${styles.lightcmnt} ${styles.circle}`}
+        >
+          Con unas bebidas bien frias
+        </div>
       </div>
     </div>
   );
