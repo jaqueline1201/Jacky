@@ -2,7 +2,13 @@
     color: var(--light);
   }
   .container {
+    padding-top: 600px;
     position: relative;
     width: 100%;
     height: 100%;
   }
+
+  .numbert{
+    font-size: 100px;
+  }
+  
