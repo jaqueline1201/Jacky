@@ -1,0 +1,14 @@
+.sections {
+    
+    &:nth-of-type(odd) {
+      background-color: var(--light);
+      color: var(--dark);
+      height: 10vh;
+    }
+  
+    &:nth-of-type(even) {
+      background-color: var(--dark);
+      color: var(--light);
+      height: 90vh;
+    }
+  }

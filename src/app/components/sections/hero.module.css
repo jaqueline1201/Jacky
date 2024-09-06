@@ -1,21 +1,31 @@
 .comment {
-    background-color: var(--dark);
-    color: var(--light);
     font-family: var(--font-pacifico);
     width: 120px;
     margin: 20px;
+    text-align: center;
+  }
+.darkcmnt {
+  background-color: var(--dark);
+  color: var(--light);
   
-  }
+}
+.lightcmnt {
+  background-color:var(--light);
+  color: var(--dark);
+}
 
-  .commentw {
-    background-color:var(--light);
-    color: var(--dark);
-    font-family: var(--font-pacifico);
-    width: 120px;
-    margin: 20px;
-  }
 
   .images {
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 60%;
+    height: 60%;
+    transform: translateX(-50%);
   }
   
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
