@@ -9,8 +9,20 @@ import lechuguilla from "../../../../public/images/el grullense.jpg";
 
 export const Drinks = () => {
   return (
-    <div>
-      <Image src={drinkImg} alt="bebida" width={200} height={200} />
+    <div className={styles.container}>
+      <div className={styles.images}>
+        <Image
+          src={drinkImg}
+          alt="bebida"
+          width={1400}
+          height={1000}
+          sizes="100vw"
+          style={{
+            width: "100%",
+            height: "auto",
+          }}
+        />
+      </div>
       <div className={styles.section}>
         <div className={styles.containerSection}></div>
         <h1>Bebidas</h1>
