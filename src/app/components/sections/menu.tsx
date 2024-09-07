@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import beansImg from "../../../../public/images/beans.jpg";
 import styles from "./menu.module.css";
-import style from "../../page.module.css";
+import { Cards } from "./cards";
 
 export const Menu = () => {
   return (
@@ -19,32 +19,9 @@ export const Menu = () => {
             </h2>
           </div>
         </div>
-        <div className={style.productContainer}>
-          <div className={style.descriptionandImg}>
-            <div className={style.productImage}>
-              <Image src={beansImg} alt="guisado" width={200} height={200} />
-            </div>
-            <div className={style.productText}>
-              <h3>Photo description</h3>
-            </div>
-          </div>
-          <div className={style.descriptionandImg}>
-            <div className={style.productImage}>
-              <Image src={beansImg} alt="guisado" width={200} height={200} />
-            </div>
-            <div className={style.productText}>
-              <h3>Photo description</h3>
-            </div>
-          </div>
-          <div className={style.descriptionandImg}>
-            <div className={style.productImage}>
-              <Image src={beansImg} alt="guisado" width={200} height={200} />
-            </div>
-            <div className={style.productText}>
-              <h3>Photo description</h3>
-            </div>
-          </div>
-        </div>
+        <Cards image={beansImg} text="Lorem" color="light" />
+        <Cards image={beansImg} text="Lorem" color="light" />
+        <Cards image={beansImg} text="Lorem" color="light" />
       </div>
     </div>
   );
