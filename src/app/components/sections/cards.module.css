@@ -1,5 +1,18 @@
-.descriptionandImg {
+.cards {
     display: flex;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    min-width: 300px; 
+    align-items: center;
+    gap: 20px;
 }
+
+.image {
+    border-radius: 10%;
+    margin: 10px;
+    max-width: 30%;
+    height: auto;
+}
+
+
+  
