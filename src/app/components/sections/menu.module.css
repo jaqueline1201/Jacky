@@ -1,6 +1,18 @@
 .guisados {
     color: var(--light);
   }
+  .guisadostexts {
+    display: flex;
+  }
+  .ndtext {
+    font-size: 200%;
+    margin-left: 30%;
+  }
+  .ndsection {
+    padding-top: 4%;
+    width: 40%;
+    margin-left: 10%;
+  }
   .container {
     padding-top: 600px;
     position: relative;
@@ -11,11 +23,13 @@
   .numbert{
     font-size: 1500%;
     font-family: var(--font-rodchenko);
+    margin-left: 10%;
   }
 
   .titleFont {
     font-family: var(--font-rodchenko);
     font-size:990% ;
-    padding-top: 1%;
+    padding-top: 2%;
+    margin-left: 15%;
   }
   

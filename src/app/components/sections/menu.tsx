@@ -8,13 +8,15 @@ export const Menu = () => {
   return (
     <div>
       <div className={styles.container}>
-        <div className="guisados-text">
-          <div className="guisados">
+        <div className={styles.guisadostexts}>
+          <div>
             <h1 className={styles.numbert}>13</h1>
             <h2 className={styles.titleFont}>Guisados</h2>
           </div>
-          <div className="text2">
-            <h2>Guisados cocinados al día con la mejor calidad.</h2>
+          <div className={styles.ndsection}>
+            <h2 className={styles.ndtext}>
+              Guisados cocinados al día con la mejor calidad.
+            </h2>
           </div>
         </div>
         <div className={style.productContainer}>
