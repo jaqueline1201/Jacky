@@ -25,7 +25,7 @@ export const Drinks = () => {
       </div>
       <div className={styles.section}>
         <div className={styles.containerSection}></div>
-        <h1>Bebidas</h1>
+        <h1 className={styles.titleFont}>Bebidas</h1>
         <h3>Agua fresca bien helada y refresco para acompañar</h3>
         <div className={style.productContainer}>
           <div className={style.descriptionandImg}>

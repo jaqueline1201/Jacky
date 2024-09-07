@@ -12,3 +12,11 @@
       height: 90vh;
     }
   }
+
+  /* .container {
+    max-width: 1440px;
+  } */
+
+  .productContainer {
+    max-width: 1440px;
+  }

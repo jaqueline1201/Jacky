@@ -24,7 +24,7 @@ export const Salsa = () => {
       <div className={styles.ndpart}>
         <div className={styles.section}>
           <div className={style.containerSection}></div>
-          <h1>5 Salsas</h1>
+          <h1 className={styles.titleFont}>5 Salsas</h1>
           <h3>Lo que se hace bien, se siente y se disfruta</h3>
           <div className={style.productContainer}>
             <div className={style.descriptionandImgB}>

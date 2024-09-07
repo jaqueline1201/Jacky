@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
 import { Inter, Pacifico, Alegreya } from "next/font/google";
+import Rodchenko from "next/font/local";
 
 import "./globals.css";
 import { Navbar } from "./components/nav-bar";
 import { Footer } from "./components/footer";
+
+const rodchenko = Rodchenko({
+  src: "../../public/font/Rodchenko.ttf",
+  display: "swap",
+  variable: "--font-rodchenko",
+});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -35,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${pacifico.variable} ${alegreya.variable}`}
+        className={`${inter.variable} ${pacifico.variable} ${alegreya.variable} ${rodchenko.variable}`}
       >
         <Navbar />
         {children}
