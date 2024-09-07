@@ -40,10 +40,6 @@ export const Hero = () => {
           width={1400}
           height={1000}
           sizes="100vw"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
         />
 
         <div
