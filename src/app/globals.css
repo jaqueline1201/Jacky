@@ -16,4 +16,14 @@ body {
     background-color: var(--light);
 }
 
+.darkcontainer {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.lightcontainer {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
 

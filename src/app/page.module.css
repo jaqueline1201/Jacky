@@ -3,21 +3,9 @@
     justify-content: center;
   }
 
-  .descriptionandImg {
-    display: flex;
-   background-color: var(--light);
-   color: var(--dark);
-   margin: 10px;
-   border-radius: 10px;
-  }
+  
 
-  .descriptionandImgB {
-    display: flex;
-    background-color: var(--dark);
-    color:var(--light);
-    margin: 10px;
-   border-radius: 5px;
-  }
+  
 
   .text2{
     color: var(--light);
