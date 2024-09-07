@@ -23,6 +23,7 @@
 .circle:nth-child(1) {
   top:40%;
   left: 20%;
+  rotate: 15deg;
 }
 .circle:nth-child(2) {
   top:80%;
@@ -30,14 +31,18 @@
 }
 .circle:nth-child(3) {
   top:60%;
+  left: 0%;
+  rotate: -25deg;
 }
 .circle:nth-child(4) {
   top:40%;
   left: 90%;
+  rotate: 40deg;
 }
 .circle:nth-child(5) {
   top: 75%;
   left: 99%;
+  rotate: -30deg;
 }
 .circle2 {
   position:absolute;
@@ -46,16 +51,19 @@
 .circle2:nth-of-type(1n) {
   top: 100%;
   left: -2%;
+  rotate: 10deg;
 }
 
 .circle2:nth-child(2n) {
   top: 115%;
   left: 45%;
+  rotate: -20deg;
 }
 
 .circle2:nth-child(3n) {
   top: 100%;
   left: 90%;
+  rotate: 30deg;
 }
 
 
