@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./drinks.module.css";
-import style from "../../page.module.css";
 import drinkImg from "../../../../public/images/bebida.png";
 import cocaImg from "../../../../public/images/coca.png";
 import jamaicaImg from "../../../../public/images/jamaica.jpg";
 import lechuguilla from "../../../../public/images/el grullense.jpg";
+import { Cards } from "./cards";
 
 export const Drinks = () => {
   return (
@@ -26,37 +26,13 @@ export const Drinks = () => {
       <div className={styles.section}>
         <div className={styles.containerSection}></div>
         <h1 className={styles.titleFont}>Bebidas</h1>
-        <h3>Agua fresca bien helada y refresco para acompañar</h3>
-        <div className={style.productContainer}>
-          <div className={style.descriptionandImg}>
-            <div className={style.productImage}>
-              <Image src={jamaicaImg} alt="jamaica" width={200} height={200} />
-            </div>
-            <div className={style.productText}>
-              <h3>Photo description</h3>
-            </div>
-          </div>
-          <div className={style.descriptionandImg}>
-            <div className={style.productImage}>
-              <Image src={cocaImg} alt="cocacola" width={200} height={200} />
-            </div>
-            <div className={style.productText}>
-              <h3>Photo description</h3>
-            </div>
-          </div>
-          <div className={style.descriptionandImg}>
-            <div className={style.productImage}>
-              <Image
-                src={lechuguilla}
-                alt="lechuguilla"
-                width={200}
-                height={200}
-              />
-            </div>
-            <div className={style.productText}>
-              <h3>Photo description</h3>
-            </div>
-          </div>
+        <h3 className={styles.sentence}>
+          Agua fresca bien helada y refresco para acompañar
+        </h3>
+        <div className={styles.cardcontainer}>
+          <Cards image={cocaImg} text="lorem" color="light" />
+          <Cards image={jamaicaImg} text="lorem" color="light" />
+          <Cards image={lechuguilla} text="lorem" color="light" />
         </div>
       </div>
     </div>

@@ -19,3 +19,16 @@
     text-align: center;
     padding-top: 300px;
   }
+
+  .cardcontainer {
+    display: inline-flex;
+    width: 100%;
+    padding-top: 2ch;
+   }
+
+   .sentence {
+    text-align: center;
+    font-family: var(--font-alegreya);
+    font-size: 200%;
+    margin-top: 70px;
+   }
