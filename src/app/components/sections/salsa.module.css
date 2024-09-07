@@ -16,7 +16,21 @@
 
   .titleFont {
     font-family: var(--font-rodchenko);
-    font-size:990% ;
+    font-size:1200% ;
     text-align: center;
   }
+  .sentece {
+    text-align: center;
+    font-family: var(--font-alegreya);
+    font-size: 200%;
+    margin-top: 70px;
+  }
+
+  .cardcontainer {
+    display: inline-flex;
+    width: 100%;
+    padding-top: 2ch;
+   }
+
+   
 

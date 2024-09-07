@@ -3,7 +3,7 @@ import Image from "next/image";
 import salsaImg from "../../../../public/images/salsa.jpg";
 import chileImg from "../../../../public/images/chiles.png";
 import styles from "./salsa.module.css";
-import style from "../../page.module.css";
+import { Cards } from "./cards";
 
 export const Salsa = () => {
   return (
@@ -23,36 +23,16 @@ export const Salsa = () => {
       </div>
       <div className={styles.ndpart}>
         <div className={styles.section}>
-          <div className={style.containerSection}></div>
           <h1 className={styles.titleFont}>5 Salsas</h1>
-          <h3>Lo que se hace bien, se siente y se disfruta</h3>
-          <div className={style.productContainer}>
-            <div className={style.descriptionandImgB}>
-              <div className={style.productImage}>
-                <Image src={salsaImg} alt="salsa" width={200} height={200} />
-              </div>
-              <div className={style.productText}>
-                <h3>Photo description</h3>
-              </div>
-            </div>
-            <div className={style.descriptionandImgB}>
-              <div className={style.productImage}>
-                <Image src={salsaImg} alt="salsa" width={200} height={200} />
-              </div>
-              <div className={style.productText}>
-                <h3>Photo description</h3>
-              </div>
-            </div>
-            <div className={style.descriptionandImgB}>
-              <div className={style.productImage}>
-                <Image src={salsaImg} alt="salsa" width={200} height={200} />
-              </div>
-              <div className={style.productText}>
-                <h3>Photo description</h3>
-              </div>
-            </div>
-          </div>
+          <h3 className={styles.sentece}>
+            Lo que se hace bien, se siente y se disfruta
+          </h3>
         </div>
+      </div>
+      <div className={styles.cardcontainer}>
+        <Cards image={salsaImg} text="lorem" color="dark" />
+        <Cards image={salsaImg} text="lorem" color="dark" />
+        <Cards image={salsaImg} text="lorem" color="dark" />
       </div>
     </div>
   );
