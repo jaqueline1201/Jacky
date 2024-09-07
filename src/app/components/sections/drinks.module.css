@@ -12,3 +12,10 @@
     height: 30%;
     transform: translate(-50%,-40%);
   }
+
+  .titleFont {
+    font-family: var(--font-rodchenko);
+    font-size:990% ;
+    text-align: center;
+    padding-top: 300px;
+  }

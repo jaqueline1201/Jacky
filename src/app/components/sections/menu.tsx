@@ -11,7 +11,7 @@ export const Menu = () => {
         <div className="guisados-text">
           <div className="guisados">
             <h1 className={styles.numbert}>13</h1>
-            <h2>Guisados</h2>
+            <h2 className={styles.titleFont}>Guisados</h2>
           </div>
           <div className="text2">
             <h2>Guisados cocinados al día con la mejor calidad.</h2>
