@@ -19,9 +19,11 @@ export const Menu = () => {
             </h2>
           </div>
         </div>
-        <Cards image={beansImg} text="Lorem" color="light" />
-        <Cards image={beansImg} text="Lorem" color="light" />
-        <Cards image={beansImg} text="Lorem" color="light" />
+        <div className={styles.cardcontainer}>
+          <Cards image={beansImg} text="Lorem" color="light" />
+          <Cards image={beansImg} text="Lorem" color="light" />
+          <Cards image={beansImg} text="Lorem" color="light" />
+        </div>
       </div>
     </div>
   );

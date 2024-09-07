@@ -10,7 +10,7 @@ export const Hero = () => {
         <div
           className={`${styles.comment} ${styles.darkcmnt} ${styles.circle}`}
         >
-          13 guisador a escoger
+          13 guisados a escoger
         </div>
         <div
           className={`${styles.comment} ${styles.darkcmnt} ${styles.circle}`}

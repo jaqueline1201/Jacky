@@ -19,9 +19,9 @@ export const Cards = (props: CardsProp) => {
   }
 
   return (
-    <div className={`${styles.descriptionandImg} ${colorclass}`}>
-      <Image src={props.image} alt=""></Image>
-      <div>{props.text}</div>
+    <div className={`${styles.cards} ${colorclass}`}>
+      <Image className={styles.image} src={props.image} alt=""></Image>
+      <div className={styles.text}>{props.text}</div>
     </div>
   );
 };
