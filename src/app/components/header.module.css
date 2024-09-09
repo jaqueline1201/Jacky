@@ -1,0 +1,10 @@
+.title {
+    font-family: var(--font-rodchenko);
+    font-size: 80px;
+    color: var(--dark);
+    text-align: center;
+}
+
+.container {
+    background-color: var(--light);
+}

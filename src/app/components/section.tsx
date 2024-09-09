@@ -6,6 +6,7 @@ type SectionProps = {
 };
 
 export const Section = (props: SectionProps) => {
+  
   return (
     <div className={styles.section}>
       <div className={styles.content}>{props.children}</div>
