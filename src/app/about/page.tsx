@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import { Header } from "../components/header";
 import tacologo from "../../../public/images/logo.png";
 
 const page = () => {
   return (
     <div>
-      <h1>About us!</h1>
-      <h2>Our History</h2>
+      <Header text="Conocenos" />
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
         molestiae ea, reiciendis aut aliquam quos natus? Tempora quaerat culpa
