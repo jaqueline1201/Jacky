@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./menu.module.css";
 import { Menu } from "./menu-section";
+import { Header } from "../components/header";
 
 const page = () => {
   return (
     <div>
-      <div className={styles.sections}>
-        <h1>Menus</h1>
-      </div>
+      <Header text="Menu"/>
       <div className={styles.sections}>
         <h2>Guisados</h2>
         <Menu>
