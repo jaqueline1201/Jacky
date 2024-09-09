@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./contact.module.css";
+import { Header } from "../components/header";
 import { Alegreya } from "next/font/google";
 
 const page = () => {
   return (
     <div>
-      <div className={styles.sections}>
-        <h1 className={styles.title}>Contacto</h1>
-      </div>
+      <Header text="Contacto" />
       <div className={styles.sections}>
         <form className={styles.container}>
           <div className={styles.block}>
