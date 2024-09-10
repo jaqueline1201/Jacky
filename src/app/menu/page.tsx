@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./menu.module.css";
 import { Menu } from "./menu-section";
 import { Header } from "../components/header";
+import { Cards } from "../components/sections/cards";
 
 const page = () => {
   return (
