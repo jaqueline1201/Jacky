@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./menu.module.css";
+import styles from "./menusections.module.css";
 
 type MenuProps = {
   children: React.ReactNode;
