@@ -36,4 +36,5 @@
   display: inline-flex;
   width: 100%;
   padding-top: 2ch;
+  flex-wrap: wrap;
  }

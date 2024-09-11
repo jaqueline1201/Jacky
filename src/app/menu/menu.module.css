@@ -1,14 +1,22 @@
-.sections {
-    
+/* .sections {
+  min-height: 100vh;
+
     &:nth-of-type(odd) {
       background-color: var(--light);
       color: var(--dark);
-      height: 10vh;
     }
   
     &:nth-of-type(even) {
       background-color: var(--dark);
-      color: var(--light);
-      height: 90vh;
+      color: var(--light);  
     }
+  } */
+
+
+  
+  .subtitle {
+    font-family: var(--font-rodchenko);
+    font-size: 60px;
+    padding-top: 20px;
+    text-align: center;
   }
