@@ -20,3 +20,19 @@
     padding-top: 20px;
     text-align: center;
   }
+
+  .container1 {
+    display: flex;
+    float: left;
+
+  }
+  /* .container2 {
+    display: flex;
+    float: left;
+    flex-direction: column;
+  }
+  .container3 {
+    display: flex;
+    float: left;
+    flex-direction: column;
+  } */
