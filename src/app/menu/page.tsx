@@ -12,7 +12,7 @@ const page = () => {
       <Header text="Menu" />
       <Section>
         <h2 className={styles.subtitle}>Guisados</h2>
-        <div className={styles.guisados}>
+        <div className={styles.container1}>
           <Cards image={meatimg} color="light" text="Adobada" />
           <Cards image={meatimg} color="light" text="Barbacoa" />
           <Cards image={meatimg} color="light" text="Cabeza" />
@@ -27,6 +27,20 @@ const page = () => {
           <Cards image={meatimg} color="light" text="Papa" />
           <Cards image={meatimg} color="light" text="Pastor" />
           <Cards image={meatimg} color="light" text="Suadero" />
+        </div>
+        <h2 className={styles.subtitle}>Salsas</h2>
+        <div className={styles.container2}>
+          <Cards image={meatimg} color="light" text="Salsa verde" />
+          <Cards image={meatimg} color="light" text="Salsa verde" />
+          <Cards image={meatimg} color="light" text="Salsa verde" />
+          <Cards image={meatimg} color="light" text="Salsa verde" />
+          <Cards image={meatimg} color="light" text="Salsa verde" />
+        </div>
+        <h2 className={styles.subtitle}>Bebidas</h2>
+        <div className={styles.container3}>
+          <Cards image={meatimg} color="light" text="Salsa verde" />
+          <Cards image={meatimg} color="light" text="Salsa verde" />
+          <Cards image={meatimg} color="light" text="Salsa verde" />
         </div>
       </Section>
     </div>
