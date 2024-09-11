@@ -10,7 +10,7 @@
     left: 50%;
     width: 30%;
     height: 30%;
-    transform: translate(-50%,-40%);
+    transform: translate(-50%,-80%);
   }
 
   .titleFont {
@@ -24,6 +24,8 @@
     display: inline-flex;
     width: 100%;
     padding-top: 2ch;
+    flex-wrap: wrap;
+    justify-content: center;
    }
 
    .sentence {

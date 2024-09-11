@@ -23,13 +23,6 @@ export const Menu = () => {
           <Cards image={beansImg} text="Lorem" color="light" />
           <Cards image={beansImg} text="Lorem" color="light" />
           <Cards image={beansImg} text="Lorem" color="light" />
-          <Cards image={beansImg} text="Lorem" color="light" />
-          <Cards image={beansImg} text="Lorem" color="light" />
-          <Cards image={beansImg} text="Lorem" color="light" />
-          <Cards image={beansImg} text="Lorem" color="light" />
-          <Cards image={beansImg} text="Lorem" color="light" />
-          <Cards image={beansImg} text="Lorem" color="light" />
-          <Cards image={beansImg} text="Lorem" color="light" />
         </div>
       </div>
     </div>
