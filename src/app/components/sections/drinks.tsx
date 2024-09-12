@@ -24,11 +24,12 @@ export const Drinks = () => {
         />
       </div>
       <div className={styles.section}>
-        <div className={styles.containerSection}></div>
-        <h1 className={styles.titleFont}>Bebidas</h1>
-        <h3 className={styles.sentence}>
-          Agua fresca bien helada y refresco para acompañar
-        </h3>
+        <div className={styles.textcontainer}>
+          <h1 className={styles.titleFont}>Bebidas</h1>
+          <h3 className={styles.sentence}>
+            Agua fresca bien helada y refresco para acompañar
+          </h3>
+        </div>
         <div className={styles.cardcontainer}>
           <Cards image={cocaImg} text="lorem" color="light" />
           <Cards image={jamaicaImg} text="lorem" color="light" />
