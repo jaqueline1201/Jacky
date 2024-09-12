@@ -26,6 +26,7 @@
     padding-top: 2ch;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 100px;
    }
 
    .sentence {
