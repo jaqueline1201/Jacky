@@ -15,13 +15,13 @@ export const Navbar = () => {
         <div className={styles.elements}>
           <ul>
             <li className={styles.optionsN}>
-              <Link href="../about/">Conocenos</Link>
+              <Link className={styles.decoration} href="../about/">Conocenos</Link>
             </li>
             <li className={styles.optionsN}>
-              <Link href="../menu/">Menú</Link>
+              <Link className={styles.decoration} href="../menu/">Menú</Link>
             </li>
             <li className={styles.optionsN}>
-              <Link href="../contact/">Contactanos</Link>
+              <Link className={styles.decoration} href="../contact/">Contactanos</Link>
             </li>
           </ul>
         </div>
