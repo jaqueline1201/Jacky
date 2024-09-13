@@ -19,12 +19,15 @@
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    
     margin: 20px;
+    align-items: center;
 }
 
 .container {
     width: 1000px;
     margin: 0 auto;
+    position: relative;
 }
 
 .name {
@@ -36,4 +39,49 @@
 .title {
     text-align: center;
     font-size: 100px;
+}
+
+.input {
+  width: 50%;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.inputm {
+  width: 50%;
+  height: 120px;
+  border-radius: 20px;
+}
+
+.label {
+ font-family: var(--font-alegreya);
+ padding-bottom: 10px;
+ font-size: 20px;
+}
+
+.button{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 20px;
+  background-color: var(--light);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: var(--font-alegreya);
+  border-radius: 20px;
+  border: none;
+  transition-duration: 0.4s;
+  width: 150px;
+
+  &:hover {
+    background-color:#f2d999;
+  }
+}
+
+.formcontainer {
+  padding-top: 2%;
 }
