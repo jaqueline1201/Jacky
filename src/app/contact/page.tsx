@@ -11,22 +11,46 @@ const page = () => {
         <form className={styles.container}>
           <div className={styles.block}>
             <label htmlFor="frm-name">Nombre</label>
-            <input id="frm-name" type="text" name="name" required />
+            <input
+              id="frm-name"
+              type="text"
+              name="name"
+              required
+              className={styles.input}
+            />
           </div>
           <div className={styles.block}>
             <label htmlFor="frm-phone">Teléfono</label>
-            <input id="frm-phone" type="text" name="phone" required />
+            <input
+              id="frm-phone"
+              type="text"
+              name="phone"
+              required
+              className={styles.input}
+            />
           </div>
           <div className={styles.block}>
             <label htmlFor="frm-email">Correo electronico</label>
-            <input id="frm-email" type="text" name="email" required />
+            <input
+              id="frm-email"
+              type="text"
+              name="email"
+              required
+              className={styles.input}
+            />
           </div>
           <div className={styles.block}>
             <label htmlFor="frm-messsage">Mensaje</label>
-            <input id="frm-message" type="text" name="message" required />
+            <input
+              id="frm-message"
+              type="text"
+              name="message"
+              required
+              className={styles.input}
+            />
           </div>
           <div className={styles.btn}>
-            <button>Enviar</button>
+            <button className={styles.button}>Enviar</button>
           </div>
         </form>
       </div>
