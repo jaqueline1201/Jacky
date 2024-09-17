@@ -2,50 +2,62 @@ import React from "react";
 import Image from "next/image";
 import { Header } from "../components/header";
 import tacologo from "../../../public/images/logo.png";
+import styles from "./about.module.css";
+import { Section } from "../components/section";
 
 const page = () => {
   return (
     <div>
       <Header text="Conocenos" />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-        molestiae ea, reiciendis aut aliquam quos natus? Tempora quaerat culpa
-        rerum? Quos itaque quam laborum delectus ea odit quidem et?
-        Exercitationem dolores maxime nam dolore, necessitatibus at aspernatur
-        quasi ex laudantium delectus debitis placeat vitae, fuga voluptas
-        corporis cumque eos non itaque libero officiis commodi ad architecto id!
-        Mollitia ea debitis corrupti dolores. Eius ipsa omnis voluptatibus,
-        quibusdam inventore temporibus ea maiores, voluptates perspiciatis
-        dignissimos debitis magnam, repudiandae ut voluptas ab odio saepe alias
-        asperiores quasi facilis. Facere voluptatibus assumenda atque itaque
-        reiciendis, ad, soluta sunt quasi commodi dolor laboriosam cupiditate?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-        aspernatur sit soluta? Provident tenetur, non accusantium esse
-        doloremque modi hic eos facilis possimus, quasi sequi distinctio
-        expedita repellendus cumque labore perspiciatis officia fuga eum,
-        corporis ipsum nobis et ratione assumenda. Explicabo necessitatibus
-        dignissimos tempora doloremque reiciendis recusandae inventore quo,
-        perferendis commodi. Unde et tempore reiciendis minus quod nostrum ea
-        placeat voluptatem praesentium iure eveniet nihil exercitationem
-        obcaecati ducimus hic fuga, ad maiores! Corporis, minus veniam? Dolor,
-        voluptas molestiae natus repellendus, illo, doloremque vitae incidunt
-        magni accusamus quod tempora rerum doloribus voluptatem repudiandae
-        illum praesentium. Eius blanditiis atque, maxime dicta nesciunt nulla
-        harum consectetur, quisquam illo similique nostrum quibusdam voluptatum
-        sit aspernatur in ut molestiae minus, vero est aliquam natus pariatur
-        hic? Eos dolorum reiciendis pariatur deserunt et libero sequi
-        repellendus facilis omnis, officia aut obcaecati eligendi suscipit ipsa
-        sapiente officiis provident nostrum in voluptatibus. Repellendus
-        tempora, nemo, ipsam, dolore aperiam facilis asperiores quaerat porro
-        soluta veniam voluptatem? Tempora vitae tenetur nostrum praesentium
-        rerum earum neque eum. Laudantium velit sequi numquam aut voluptatem
-        totam amet consequatur est et, dolorem dolore exercitationem, natus
-        perferendis aliquid deleniti necessitatibus iure, autem porro error
-        quidem! Esse temporibus beatae minima fugiat laudantium. Fugiat quo
-        mollitia minima.
-      </p>
-
-      <Image alt="logo" src={tacologo} />
+      <Section>
+        <div className={styles.section}>
+          <div className={styles.text1}>
+            <p className={styles.paragraph1}>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+              maxime tempora cupiditate. At ratione eligendi minus adipisci
+            </p>
+            <p className={styles.paragraph1}>
+              necessitatibus quo quidem alias asperiores sunt! Ipsum iste
+              delectus nisi amet expedita voluptatum, iusto impedit adipisci
+              maiores rerum velit. Eius nihil magni error!
+            </p>
+          </div>
+          <div className={styles.images1}>
+            <div className={styles.img1}>
+              <Image src={tacologo} />
+            </div>
+            <div className={styles.img1}>
+              <Image src={tacologo} />
+            </div>
+            <div className={styles.img1}>
+              <Image src={tacologo} />
+            </div>
+          </div>
+          <div className={styles.section}>
+            <div className={styles.text1}>
+              <p>La estrella de nuestra cocina Doña Lety</p>
+              <p>Siempre brindado los mejores sabores para nuestros clientes</p>
+            </div>
+            <div className={styles.imgage2}>
+              <Image src={tacologo} />
+            </div>
+          </div>
+          <div className={styles.section}>
+            <div className={styles.images3}>
+              <Image src={tacologo} />
+              <Image src={tacologo} />
+              <Image src={tacologo} />
+              <Image src={tacologo} />
+            </div>
+            <div className={styles.lasttext}>
+              <p>
+                Desde nuestro inicio hemos buscado los ingredientes mas frescos
+                y de la mejor calidad
+              </p>
+            </div>
+          </div>
+        </div>
+      </Section>
     </div>
   );
 };
