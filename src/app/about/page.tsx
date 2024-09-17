@@ -10,7 +10,7 @@ const page = () => {
     <div>
       <Header text="Conocenos" />
       <Section>
-        <div className={styles.section}>
+        <div className={styles.section1}>
           <div className={styles.text1}>
             <p className={styles.paragraph1}>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
@@ -22,7 +22,7 @@ const page = () => {
               maiores rerum velit. Eius nihil magni error!
             </p>
           </div>
-          <div className={styles.images1}>
+          <div className={styles.images}>
             <div className={styles.img1}>
               <Image src={tacologo} alt="image" />
             </div>
@@ -33,7 +33,7 @@ const page = () => {
               <Image src={tacologo} alt="image" />
             </div>
           </div>
-          <div className={styles.section}>
+          <div className={styles.section3}>
             <div className={styles.text1}>
               <p>La estrella de nuestra cocina Doña Lety</p>
               <p>Siempre brindado los mejores sabores para nuestros clientes</p>
