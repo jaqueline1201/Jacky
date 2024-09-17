@@ -24,13 +24,13 @@ const page = () => {
           </div>
           <div className={styles.images1}>
             <div className={styles.img1}>
-              <Image src={tacologo} />
+              <Image src={tacologo} alt="image" />
             </div>
             <div className={styles.img1}>
-              <Image src={tacologo} />
+              <Image src={tacologo} alt="image" />
             </div>
             <div className={styles.img1}>
-              <Image src={tacologo} />
+              <Image src={tacologo} alt="image" />
             </div>
           </div>
           <div className={styles.section}>
@@ -39,15 +39,15 @@ const page = () => {
               <p>Siempre brindado los mejores sabores para nuestros clientes</p>
             </div>
             <div className={styles.imgage2}>
-              <Image src={tacologo} />
+              <Image src={tacologo} alt="image" />
             </div>
           </div>
           <div className={styles.section}>
             <div className={styles.images3}>
-              <Image src={tacologo} />
-              <Image src={tacologo} />
-              <Image src={tacologo} />
-              <Image src={tacologo} />
+              <Image src={tacologo} alt="image" />
+              <Image src={tacologo} alt="image" />
+              <Image src={tacologo} alt="image" />
+              <Image src={tacologo} alt="image" />
             </div>
             <div className={styles.lasttext}>
               <p>
