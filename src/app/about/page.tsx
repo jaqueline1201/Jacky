@@ -13,24 +13,23 @@ const page = () => {
         <div className={styles.section1}>
           <div className={styles.text1}>
             <p className={styles.paragraph1}>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-              maxime tempora cupiditate. At ratione eligendi minus adipisci
+              Nuestra historia empieza hace ya 10 años, cuando la cochera abrio
+              sus puertas por primera vez.
             </p>
             <p className={styles.paragraph1}>
-              necessitatibus quo quidem alias asperiores sunt! Ipsum iste
-              delectus nisi amet expedita voluptatum, iusto impedit adipisci
-              maiores rerum velit. Eius nihil magni error!
+              Nuestro enfoque siempre a sido ofrecer la mejor calidad al mejor
+              precio.
             </p>
           </div>
-          <div className={styles.images}>
+          <div className={styles.imagescontainer}>
             <div className={styles.img1}>
-              <Image src={tacologo} alt="image" />
+              <Image src={tacologo} alt="image" className={styles.photo1} />
             </div>
             <div className={styles.img1}>
-              <Image src={tacologo} alt="image" />
+              <Image src={tacologo} alt="image" className={styles.photo1} />
             </div>
             <div className={styles.img1}>
-              <Image src={tacologo} alt="image" />
+              <Image src={tacologo} alt="image" className={styles.photo1} />
             </div>
           </div>
           <div className={styles.section3}>
@@ -39,15 +38,15 @@ const page = () => {
               <p>Siempre brindado los mejores sabores para nuestros clientes</p>
             </div>
             <div className={styles.imgage2}>
-              <Image src={tacologo} alt="image" />
+              <Image src={tacologo} alt="image" className={styles.photo2} />
             </div>
           </div>
           <div className={styles.section}>
             <div className={styles.images3}>
-              <Image src={tacologo} alt="image" />
-              <Image src={tacologo} alt="image" />
-              <Image src={tacologo} alt="image" />
-              <Image src={tacologo} alt="image" />
+              <Image src={tacologo} alt="image" className={styles.photo3} />
+              <Image src={tacologo} alt="image" className={styles.photo3} />
+              <Image src={tacologo} alt="image" className={styles.photo3} />
+              <Image src={tacologo} alt="image" className={styles.photo3} />
             </div>
             <div className={styles.lasttext}>
               <p>

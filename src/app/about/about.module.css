@@ -2,6 +2,21 @@
     display: inline-block;
     
 }
-.images {
+.imagescontainer {
     float: left;
+}
+
+.photo1 {
+    width: 100px;
+    height: 100px;
+}
+
+.photo2 {
+    width: 200px;
+    height: 200px;
+}
+
+.photo3{
+    width: 80px;
+    height: 80px;
 }
